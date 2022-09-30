@@ -11,11 +11,11 @@ $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
-$gray-600: #6c757d !default;
+$gray-600: #8a8a8e !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
-$gray-900: #212529 !default;
-$black:    #151515;
+$gray-900: #202020 !default;
+$black:    #111;
 
 // fusv-disable
 $grays: (
@@ -60,14 +60,14 @@ $colors: (
 ) !default;
 // scss-docs-end colors-map
 
-$primary:       $black;
+$primary:       $blue;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
-$warning:       $orange;
+$warning:       $yellow;
 $danger:        $red !default;
 $light:         $gray-100 !default;
-$dark:          $gray-800;
+$dark:          $gray-900;
 $accent:        $indigo;
 
 // scss-docs-start theme-colors-map
@@ -84,16 +84,15 @@ $theme-colors: (
 
 
 $font-family-sans-serif:      "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-size-base:              1.1rem !default; // Assumes the browser default, typically `16px`
-$lead-font-weight:            400;
-$font-weight-light:           400 !default;
+$font-size-base:              1.2rem !default; // Assumes the browser default, typically `16px`
+$lead-font-weight:            300;
+$font-weight-light:           300 !default;
 $font-weight-normal:          400 !default;
 $lead-font-size:              $font-size-base * 1.33;
-$grid-gutter-width:           3vw;
-$border-radius: 0px;
+$grid-gutter-width:           4vw;
 
 // Shadows
-$box-shadow:                  0 3rem 4rem rgba($black, .15);
+$box-shadow:                  0 1rem 3rem rgba($black, .5);
 $box-shadow-sm:               0 1rem 1.5rem rgba($black, .25);
 $box-shadow-lg:               0 4rem 6rem rgba($black, .25);
 $box-shadow-inset:            inset 0 1px 2px rgba($black, .075) !default;
@@ -110,7 +109,7 @@ $dark-soft: rgba($dark, .2);
 
 //XL Buttons
 $btn-padding-y-xl:            calc(.75rem + .5vh);
-$btn-padding-x-xl:            calc(1rem + 2vw);
+$btn-padding-x-xl:            calc(2rem + 2vw);
 $btn-font-size-xl:            $font-size-base;
 
 

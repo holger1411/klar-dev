@@ -1,19 +1,19 @@
-# Brook. - A free and open source Eleventy 2 + Bootstrap 5 blog template
+# Klar - A free and open source Eleventy 2 + Bootstrap 5 blog template
 
 **Live Demo at**: <a href="https://templatedeck.com/" target="_blank">templatedeck.com</a>
 
-## What is Brook?
-Brook is a static HTML website template. Open sources and free to use.
+## What is Klar?
+Klar is a static HTML website template. Open sources and free to use.
 It utilizes <a href="https://getbootstrap.com/" target="_blank">Bootstrap 5</a> and the the static site generator <a href="https://www.11ty.dev/" target="_blank">Eleventy</a> .
 
 ## How to use it as beginner
-If you are familia with basic HTML but if you are not a web developer with advanced skills you can use Brook es well. Just use the `/public` folder of this repository. Change the content, add some of your images and transfer it to your webserver/webspace. Thats it
+If you are familiar with basic HTML but if you are not a web developer with advanced skills you can use Klar es well. Just use the `/public` folder of this repository. Change the content, add some of your images and transfer it to your webserver/webspace. Thats it
 
-## How to use Brook if you have some advanced web development knowledge
-Brook based on Bootstrap 5 and the static site generator Eleventy. It also comes with npm support for dependency management and Gulp as task runner.
+## How to use Klar if you have some advanced web development knowledge
+Klar based on Bootstrap 5 and the static site generator Eleventy. It also comes with npm support for dependency management and Gulp as task runner.
 In this setup I used the template language Nunjucks (by Mozilla) but Eleventy also supports Liquid, Handelbars, Haml, Pug, Mustach to name a few. Vanilla JS, static HTML or even Markdown files are also possible. It also lets you mix differend template languages together.
 Eleventy also allows differend data types and ways to incorporate content during the deployment. You can use static and local content, compute content programatically, you can consume API´s, you can use the font matter format in files iteself, markdown content files etc.
-Basically Brook is a all in on boilerplate for static websites + an example of design and layout.
+Basically Klar is a all in on boilerplate for static websites + an example of design and layout.
 
 ## Requirements
 You need Node (at least v14+) on your computer. To check if you have node and what version run this command in your terminal:

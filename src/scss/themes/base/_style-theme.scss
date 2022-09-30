@@ -50,7 +50,7 @@ img {
 .navbar.scrolled {
   padding-top:12px;
   padding-bottom:12px;
-  background-color: rgba(255,255,255,.9);
+  background-color: $black;
 }
 
 .display-big {font-size:7rem;}
@@ -62,9 +62,18 @@ img {
   position: relative;
 }
 
+.link-fancy-light {
+  color:$white;
+}
+
 .link-fancy:hover {
   color: $gray-600;
 }
+
+.link-fancy-light:hover {
+  color: $gray-600;
+}
+
 
 .link-fancy:before {
   content: '';
@@ -80,6 +89,10 @@ img {
   background-position: 0;
   background-size: 400% 1px;
   transition: background-position 0.8s ease-in-out;
+}
+.link-fancy-light:before{
+  background-image: linear-gradient(90deg, $white 0, $white 25%, transparent 0, transparent 50%, $white 0, $white 75%, transparent 0, transparent);
+
 }
 
 .link-fancy:hover:before {
@@ -99,12 +112,12 @@ img {
 
 .display-huge {
     font-size: calc(2.5rem + 1.5vw);
-    font-weight:700;
+    font-weight:800;
 letter-spacing:-.02rem;
 }
 
-.navbar-light a.nav-link {
-  color:$black;
+.navbar-dark a.nav-link {
+  color:$white;
     border-bottom:2px solid transparent;
     margin:0 1rem;
     font-size:1.33rem;
@@ -113,6 +126,10 @@ letter-spacing:-.02rem;
   padding-left:0rem;
       padding-right:0rem;
 }
-.navbar-light a.nav-link:hover {
-  border-bottom:2px solid $black;
+.navbar-dark a.nav-link:hover {
+  border-bottom:2px solid $white;
+}
+
+.gradient {
+background-image: linear-gradient(24deg,$blue,transparent 21%),linear-gradient(198deg,$warning-soft 11%,transparent 0%),linear-gradient(50deg,$indigo 5%,$purple 32%,$pink 35%,$red 65%,$orange 83%,$yellow 91%);
 }

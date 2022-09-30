@@ -1,7 +1,8 @@
 {
-  "title": "Brook - A ultra clean Bootstrap 5 Blogging template",
+  "title": "Klar - A ultra clean Bootstrap 5 Company template",
   "author": "Holger Koenemann",
   "description": "A well made and handcrafted Bootstrap 5 template",
   "language": "en",
-  "brandName": "Brook"
+  "brandName": "Klar",
+  "customFont": "true"
   }

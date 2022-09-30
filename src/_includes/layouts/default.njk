@@ -1,3 +1,12 @@
+---
+customFont: true
+stickyNav: true
+rounded: true
+navBg: bg-white
+bodyModifier: bg-dark text-white
+darkMode: true
+---
+
 <!doctype html>
 <html class="h-100" lang="{{ metadata.language }}">
 
@@ -5,7 +14,7 @@
     {% include 'snippets/head.njk' %}
   </head>
 
-  <body {% if (bodyModifier) %} class="{{ bodyModifier }}" {% endif %} data-bs-spy="scroll"  data-bs-target="#navScroll">
+  <body class="{{ bodyModifier }} {% if stickyNav %}mt-0{% endif %}" data-bs-spy="scroll"  data-bs-target="#navScroll">
 
     {% include "snippets/navbar1.njk" %}
     <main>

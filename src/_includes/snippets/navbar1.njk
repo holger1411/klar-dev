@@ -1,10 +1,10 @@
-<nav id="navScroll" class="navbar navbar-light {% if stickyNav %}fixed-top{% endif %} py-vh-3 pb-0 px-vw-5"  tabindex="0">
-  <div class="container-fluid">
+<nav id="navScroll" class="navbar {% if darkMode %}navbar-dark{% endif %} {{navBg}} {% if stickyNav %}fixed-top{% endif %} px-vw-5"  tabindex="0">
+  <div class="container">
     {% include 'snippets/navbar-brand.njk' %}
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
       {% include 'snippets/navbar-content.njk' %}
     </ul>
-      <a href="https://templatedeck.com/brook-html-template.html" aria-label="Download this template" class="fs-6 link-fancy">
+      <a href="https://templatedeck.com/brook-html-template.html" aria-label="Download this template" class="link-fancy {% if darkMode %}link-fancy-light{% endif %} ">
         Download Template
       </a>
 </div>
