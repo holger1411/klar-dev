@@ -1,0 +1,23 @@
+---
+bodyModifier: bg-black text-white h-100
+darkMode: true
+customFont: true
+footer: footer10
+---
+
+<!doctype html>
+<html class="h-100" lang="{{ metadata.language }}">
+
+  <head>
+    {% include 'snippets/head.njk' %}
+  </head>
+
+  <body class="{{ bodyModifier }} {% if stickyNav %}mt-0{% endif %}" data-bs-spy="scroll"  data-bs-target="#navScroll">
+
+
+      {{ content | safe }}
+
+
+    {% include "snippets/" + footer + ".njk" %}
+  </body>
+</html>

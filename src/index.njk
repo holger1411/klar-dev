@@ -14,18 +14,19 @@ pagination:
   {% include "snippets/hero2.njk" %}
 </div>
 
-<div class="w-100 position-relative bg-black text-white bg-cover d-flex align-items-center" style="background-image: url(/img/abstract101.jpg)">
+<div class="w-100 position-relative bg-black text-white bg-cover d-flex align-items-center">
 <div class="container-fluid px-vw-5">
     <div class="position-absolute w-100 h-50 bg-dark bottom-0 start-0"></div>
     <div class="row d-flex align-items-center position-relative justify-content-center px-0">
       <div class="col-6">
-  <img src="/img/office103.jpg" class="img-fluid position-relative {% if rounded %}rounded-5{% endif%} shadow">
+        <!-- office 103, 101, 105 -->
+  <img src="/img/abstract18.jpg" class="img-fluid position-relative {% if rounded %}rounded-5{% endif%} shadow">
 </div>
 <div class="col-3">
-<img src="/img/office101.jpg" class="img-fluid position-relative {% if rounded %}rounded-5{% endif%} shadow">
+<img src="/img/abstract6.jpg" class="img-fluid position-relative {% if rounded %}rounded-5{% endif%} shadow">
 </div>
 <div class="col-3">
-<img src="/img/office105.jpg" class="img-fluid position-relative {% if rounded %}rounded-5{% endif%} shadow">
+<img src="/img/abstract9.jpg" class="img-fluid position-relative {% if rounded %}rounded-5{% endif%} shadow">
 </div>
 
 <!--
@@ -44,10 +45,10 @@ pagination:
   <div class="row d-flex align-items-center">
     <div class="col-7 text-end">
       <h5 class="text-secondary fw-lighter">What we do</h5>
-      <h2 class="display-4 fw-bolder">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h2>
+      <h2 class="display-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h2>
     </div>
     <div class="col-5">
-      <h3 class="border-top border-secondary pt-5">Product Design & Strategy</h3>
+      <h3 class="pt-5">Product Design & Strategy</h3>
       <p class="text-secondary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br/><a href="#" class="link-fancy link-fancy-light me-2">Tell me more</a> {% include 'svg/arrow-right-circle.svg' %}</p>
       <h3 class="border-top border-secondary pt-5 mt-5">Development & Engineering</h3>
       <p class="text-secondary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br/><a href="#" class="link-fancy link-fancy-light me-2">Tell me more</a> {% include 'svg/arrow-right-circle.svg' %}</p>
@@ -57,48 +58,19 @@ pagination:
 </div>
 
 <div class="bg-black py-vh-3">
-  <div class="container bg-black px-vw-5 py-vh-3 {% if rounded %}rounded-5{% endif%} shadow">
-    <div class="row d-flex align-items-center">
-
-    <div class="col-6 d-flex align-items-center  bg-dark shadow {% if rounded %}rounded-5{% endif%} p-0">
-      <div class="row d-flex justify-content-center">
-        <div class="col-12">
-      <img src="img/person103.jpg" class="img-fluid {% if rounded %}rounded-5{% endif%}">
-    </div>
-    <div class="col-12 col-lg-10 col-xl-8 text-center my-5">
-      <p class="lead border-bottom pb-4 border-secondary">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."</p>
-      <p class="text-secondary text-center">Jane Doe, CEO</p>
+          {% include "snippets/articles1.njk" %}
 </div>
-</div>
-  </div>
-    <div class="col-5 offset-1">
-      <h5 class="text-secondary fw-lighter">The numbers</h5>
-      <h2 class="display-huge fw-bolder">+400</h2>
-<p class="h4 fw-lighter text-secondary">
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-</p>
-
-<h2 class="display-huge fw-bolder border-top border-secondary pt-5 mt-5">78.981</h2>
-<p class="h4 fw-lighter text-secondary">
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-</p>
-<h2 class="display-huge fw-bolder border-top border-secondary pt-5 mt-5">98%</h2>
-<p class="h4 fw-lighter text-secondary">
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-</p>
-  </div>
-    </div>
-  </div></div>
-  <div class="bg-dark">
+  <div class="bg-dark position-relative">
   <div class="container px-vw-5 py-vh-5">
     <div class="row d-flex align-items-center">
 
       <div class="col-12 col-lg-7">
-          {% include "snippets/loop.njk" %}
+        <img class="img-fluid rounded-5 mb-n5 shadow" src="img/person9.jpg">
+        <img class="img-fluid rounded-5 ms-5 mb-n5 shadow" src="img/person11.jpg">
       </div>
       <div class="col-12 col-lg-5">
-        <h5 class="text-secondary fw-lighter">Do you need a job?</h5>
-        <h2 class="display-4 fw-bolder">We constantly hire people for stuff</h2>
+        <h5 class="text-secondary fw-lighter">Do you like faces?</h5>
+        <h2 class="display-4">We constantly adding new images to our website. Does it make sense? No!</h2>
       </div>
     </div>
   </div>
@@ -109,8 +81,25 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
 </div>
 <div class="container-fluid px-vw-5 position-relative">
   <div class="position-absolute w-100 h-50 bg-black top-0 start-0"></div>
-<div class="ratio ratio-16x9 bg-cover bg-center {% if rounded %}rounded-5{% endif%}" style="background-image: url(img/office116.jpg)">
+<div class="position-relative py-vh-5 bg-cover bg-center {% if rounded %}rounded-5{% endif%}" style="background-image: url(img/abstract2.jpg)">
+<div class="container">
+  <div class="row py-vh-5">
+    <div class="col bg-white text-dark rounded-5 py-vh-3 my-5 text-center">
+      <h2 class="display-4">Start your journey with us</h2>
+      <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<form class="row d-flex justify-content-center align-items-center g-3 border rounded-5 p-3 pt-1 shadow-sm">
+  <div class="col">
+    <input type="email" class="form-control fs-3 form-control-lg bg-gray-100 p-2 px-4 rounded-5" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="john@doe.com" />
+  </div>
+  <div class="col-auto d-grid gap-2">
+  <a href="#" type="submit" class="btn btn-xl btn-dark">Join us {% include 'svg/arrow-right-small.svg' %}</a>
+</div>
+</form>
 
+    </div>
+      </div>
+
+</div>
 
 </div>
 </div>
