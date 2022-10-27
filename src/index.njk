@@ -10,57 +10,52 @@ pagination:
     alias: posts
 ---
 <div class="w-100 overflow-hidden position-relative bg-black text-white">
-<div class="position-absolute w-100 h-100 bg-black opacity-75 top-0 start-0"></div>
+  <div class="position-absolute w-100 h-100 bg-black opacity-75 top-0 start-0"></div>
   {% include "snippets/hero2.njk" %}
 </div>
 
 <div class="w-100 position-relative bg-black text-white bg-cover d-flex align-items-center">
-<div class="container-fluid px-vw-5">
+  <div class="container-fluid px-vw-5">
     <div class="position-absolute w-100 h-50 bg-dark bottom-0 start-0"></div>
     <div class="row d-flex align-items-center position-relative justify-content-center px-0 g-5">
       <div class="col-12 col-lg-6">
         <!-- office 103, 101, 105 -->
-  <img src="/img/webp/abstract18.webp" width="1650" hight="1254" class="img-fluid position-relative {% if rounded %}rounded-5{% endif%} shadow">
-</div>
-<div class="col-12 col-md-6 col-lg-3">
-<img src="/img/webp/abstract6.webp" class="img-fluid position-relative {% if rounded %}rounded-5{% endif%} shadow">
-</div>
-<div class="col-12 col-md-6 col-lg-3">
-<img src="/img/webp/abstract9.webp" class="img-fluid position-relative {% if rounded %}rounded-5{% endif%} shadow">
-</div>
-
-<!--
-<div class="col-3">
-  <p class="text-muted">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-
-</div>
-<div class="col-12 col-lg-4">
-<img src="/img/office103.jpg" class="img-fluid position-relative rounded-5 shadow">
-</div>-->
-</div>
-</div>
+        <img src="/img/webp/abstract18.webp" width="2280" hight="1732" alt="abstract image" class="img-fluid position-relative {% if rounded %}rounded-5{% endif%} shadow">
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <img src="/img/webp/abstract6.webp" width="1116" hight="1578" alt="abstract image" class="img-fluid position-relative {% if rounded %}rounded-5{% endif%} shadow">
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <img src="/img/webp/abstract9.webp" width="1116" hight="848" alt="abstract image" class="img-fluid position-relative {% if rounded %}rounded-5{% endif%} shadow">
+      </div>
+    </div>
+  </div>
 </div>
 <div class="bg-dark">
-<div class="container px-vw-5 py-vh-5">
-  <div class="row d-flex align-items-center">
-    <div class="col-12 col-lg-7 text-lg-end">
-      <h5 class="text-secondary fw-lighter">What we do</h5>
-      <h2 class="display-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h2>
+  <div class="container px-vw-5 py-vh-5">
+    <div class="row d-flex align-items-center">
+      <div class="col-12 col-lg-7 text-lg-end">
+        <h5 class="text-secondary fw-lighter">What we do</h5>
+        <h2 class="display-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h2>
+      </div>
+      <div class="col-12 col-lg-5">
+        <h3 class="pt-5">Product Design & Strategy</h3>
+        <p class="text-secondary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br/>
+          <a href="#" class="link-fancy link-fancy-light me-2">Tell me more</a>
+          {% include 'svg/arrow-right-circle.svg' %}</p>
+        <h3 class="border-top border-secondary pt-5 mt-5">Development & Engineering</h3>
+        <p class="text-secondary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br/>
+          <a href="#" class="link-fancy link-fancy-light me-2">Tell me more</a>
+          {% include 'svg/arrow-right-circle.svg' %}</p>
+      </div>
     </div>
-    <div class="col-12 col-lg-5">
-      <h3 class="pt-5">Product Design & Strategy</h3>
-      <p class="text-secondary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br/><a href="#" class="link-fancy link-fancy-light me-2">Tell me more</a> {% include 'svg/arrow-right-circle.svg' %}</p>
-      <h3 class="border-top border-secondary pt-5 mt-5">Development & Engineering</h3>
-      <p class="text-secondary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br/><a href="#" class="link-fancy link-fancy-light me-2">Tell me more</a> {% include 'svg/arrow-right-circle.svg' %}</p>
-    </div>
-</div>
-</div>
+  </div>
 </div>
 
 <div class="bg-black py-vh-3">
-          {% include "snippets/articles1.njk" %}
+  {% include "snippets/articles1.njk" %}
 </div>
-  <div class="bg-dark position-relative">
+<div class="bg-dark position-relative">
   <div class="container px-vw-5 py-vh-5">
     <div class="row d-flex align-items-center">
 
@@ -74,36 +69,17 @@ pagination:
       </div>
     </div>
   </div>
-  </div>
+</div>
 </div>
 <div class="bg-black">
-          {% include "snippets/cta1.njk" %}
+{% include "snippets/cta1.njk" %}
 </div>
 <div class="container-fluid px-vw-5 position-relative">
-  <div class="position-absolute w-100 h-50 bg-black top-0 start-0"></div>
+<div class="position-absolute w-100 h-50 bg-black top-0 start-0"></div>
 <div class="position-relative py-vh-5 bg-cover bg-center {% if rounded %}rounded-5{% endif%}" style="background-image: url(img/webp/abstract12.webp)">
-{% include 'snippets/numbers1.njk' %}
-<!--<div class="container">
-  <div class="row py-vh-5">
-    <div class="col bg-black text-dark rounded-5 py-vh-3 my-5 text-center text-white">
-      <h2 class="display-4">Start your journey with us</h2>
-      <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-<form class="row d-flex justify-content-center align-items-center g-3 rounded-5 p-3 pt-1 shadow-sm bg-dark">
-  <div class="col">
-    <input type="email" class="form-control fs-3 form-control-lg p-2 px-4 rounded-5 bg-gray-300 border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="john@doe.com" />
-  </div>
-  <div class="col-auto d-grid gap-2">
-  <a href="#" type="submit" class="btn btn-xl btn-white">Join us {% include 'svg/arrow-right-small.svg' %}</a>
-</div>
-</form>
-
-    </div>
-      </div>
-
-</div>-->
-
+  {% include 'snippets/numbers1.njk' %}
 </div>
 </div>
 <div class="bg-dark py-vh-5">
-          {% include "snippets/testimonials1.njk" %}
+{% include "snippets/testimonials1.njk" %}
 </div>
