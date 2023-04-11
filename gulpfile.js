@@ -5,7 +5,6 @@ var sass = require('gulp-dart-sass');
 var clean = require('gulp-clean');
 var browserSync = require('browser-sync').create();
 var rename = require('gulp-rename');
-var imgopt = require('gulp-smushit');
 const purgecss = require('gulp-purgecss');
 const htmlmin = require('gulp-htmlmin');
 var htmlreplace = require('gulp-html-replace');
@@ -13,8 +12,6 @@ var reload      = browserSync.reload;
 // Configuration file to keep your code DRY
 var cfg = require( './gulpconfig.json' );
 var paths = cfg.paths;
-
-sass.compiler = require('node-sass');
 
 gulp.task('dist-assets', function (done) {
     gulp.src('./src/js/**.*')
