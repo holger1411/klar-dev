@@ -1,3 +1,10 @@
+<!-- templatedeck-backlink -->
+> 🎨 **KLAR** is part of the [TemplateDeck](https://templatedeck.com) collection — handcrafted HTML and Astro templates for developers and designers.
+>
+> 📥 **[Download free on TemplateDeck](https://templatedeck.com/templates/klar)** · 🌐 **[Browse all templates](https://templatedeck.com)**
+
+---
+
 # Klar - A Free Bootstrap 5 Business Website Template
 
 **Live Demo**: [klar-html-template.netlify.app](https://klar-html-template.netlify.app/)
